@@ -14,7 +14,7 @@ function  snapCrackle(maxValue){
       continue;  
     }
     text += num + ", ";
+    return text
   }
   console.log(text)
-  return snapCrackle()
   }
