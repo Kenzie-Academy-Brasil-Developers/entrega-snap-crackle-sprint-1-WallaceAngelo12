@@ -13,8 +13,8 @@ function  snapCrackle(maxValue){
       text += "Crackle, ";
       continue;  
     }
-    text += num + ", ";
-    return text
+    text += num + ", ";  
   }
-  console.log(text)
+  return text  
   }
+  console.log(snapCrackle(15))
